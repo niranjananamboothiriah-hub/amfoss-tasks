@@ -15,7 +15,6 @@ Each image contained a single coloured dot on a white background. The images had
 - Git and GitHub
 - Ubuntu Linux
 
----
 
 ## Steps Performed
 
@@ -23,7 +22,7 @@ Each image contained a single coloured dot on a white background. The images had
 
 I cloned the given Operation Pixel Merge repository into my Task-08 directory.
 
-```bash
+
 git clone https://github.com/hrideshmg/Operation-Pixel-Merge.git
 This command downloads the repository from GitHub to the local system.
 
@@ -39,7 +38,6 @@ The assets contained multiple PNG images named in the format:
 Layer 1.png
 Layer 2.png
 Layer 3.png
-...
 
 The images were 512 × 512 pixels.
 
@@ -63,6 +61,7 @@ python3 -c "import cv2; print(cv2.__version__)"
 The installed OpenCV version was:
 
 4.10.0
+
 5. Detected the Coloured Dot
 
 OpenCV was used to identify pixels that were different from the white background.
@@ -163,25 +162,5 @@ How to convert BGR colours to RGB for Pillow.
 How to numerically sort filenames.
 How to detect special cases such as completely white images.
 How to draw lines and create images using Pillow.
-How to combine OpenCV, NumPy and Pillow in a Python program.
-How to use terminal commands and Python scripts to automate image processing.
 
-### Where to put it
-
-Inside:
-
-```text
-~/amfoss-tasks/Task-08/Operation-Pixel-Merge/
-
-Create the file:
-
-touch logbook.md
-
-touch creates a new empty file.
-
-Then open it:
-
-code logbook.md
-
-code opens the file in VS Code.
 
